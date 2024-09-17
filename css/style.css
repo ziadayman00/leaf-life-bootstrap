@@ -270,23 +270,32 @@ footer input{
 /* animation in deffrant sizes */
 @media only screen and (max-width: 767px){
     .wow{
-        animation-name: bounceIn;
+        animation: none;
+    }
+    .carousel , .about-section-home , .header-home-content{
+        animation: none;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
-   .card-mid1{
-        animation-name: bounceInRight;
+    .carousel , .about-section-home , .header-home-content{
+        animation: none;
+    }
+    .card-left1{
+        animation: none;
+    }
+    .card-mid1{
+        animation: none;
    }
    .card-right1{
-        animation-name: bounceInLeft;
+        animation: none;
    }
    .card-left2{
-        animation-name: bounceInRight;
+        animation: none;
    }
    .card-mid2{
-        animation-name: bounceInLeft;
+        animation: none;
    }
    .card-right2{
-        animation-name: bounceInRight;
+        animation: none;
    }
 }
