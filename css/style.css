@@ -169,6 +169,7 @@ body{
     margin: auto;
     border-radius: 10px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 .about-home-img{
     position: absolute;
@@ -275,6 +276,7 @@ footer input{
     .carousel , .about-section-home , .header-home-content{
         animation: none;
     }
+    
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .carousel , .about-section-home , .header-home-content{
@@ -299,3 +301,51 @@ footer input{
         animation: none;
    }
 }
+
+/* start testimonial section */
+.carousel-container{
+    height: 400px;
+}
+.comment-content{
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.person-testimonial{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: -37px;
+}
+.comment-container{
+    position: relative;
+    transition: all linear 0.3s;
+}
+.comment-container:hover{
+    transform: scale(1.1);
+}
+.prev-arrow-testimonial , .next-arrow-testemonial{
+}
+@media(max-width:767px){
+    .comment-content{
+        font-size: 13px;
+    }
+    .person-testimonial{
+        width: 55px;
+        height: 55px;
+        left: 50px;
+        right: 50px;
+        top: -27px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .comment-content{
+        font-size: 16px;
+    }
+}
+/* end testimonial section */
