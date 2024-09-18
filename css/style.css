@@ -230,6 +230,54 @@ body{
 }
 /* end styling about home section */
 
+/* start testimonial section */
+.carousel-container{
+    height: 400px;
+}
+.comment-content{
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.person-testimonial{
+    border: 3px solid rgb(130, 180, 107);
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: -37px;
+}
+.comment-container{
+    position: relative;
+    transition: all linear 0.3s;
+}
+.comment-container:hover{
+    transform: scale(1.1);
+}
+@media(max-width:767px){
+    .comment-content{
+        font-size: 13px;
+    }
+    .person-testimonial{
+        width: 55px;
+        height: 55px;
+        left: 50px;
+        right: 50px;
+        top: -27px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .comment-content{
+        font-size: 16px;
+    }
+}
+/* end testimonial section */
+
+
 /* start styling footer */
 .footer-home{
     height: 400px;
@@ -256,6 +304,7 @@ footer input{
     margin: auto;
 }
 .fa-brands{
+    color: rgb(231, 244, 225);
     font-size: 30px;
     padding-right: 10px;
     cursor: pointer;
@@ -302,50 +351,3 @@ footer input{
    }
 }
 
-/* start testimonial section */
-.carousel-container{
-    height: 400px;
-}
-.comment-content{
-    background-color: white;
-    height: 200px;
-    padding: 20px;
-    color: black;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.person-testimonial{
-    width: 75px;
-    height: 75px;
-    position: absolute;
-    left: 100px;
-    right: 100px;
-    top: -37px;
-}
-.comment-container{
-    position: relative;
-    transition: all linear 0.3s;
-}
-.comment-container:hover{
-    transform: scale(1.1);
-}
-.prev-arrow-testimonial , .next-arrow-testemonial{
-}
-@media(max-width:767px){
-    .comment-content{
-        font-size: 13px;
-    }
-    .person-testimonial{
-        width: 55px;
-        height: 55px;
-        left: 50px;
-        right: 50px;
-        top: -27px;
-    }
-}
-@media(min-width:768px) and (max-width:991px){
-    .comment-content{
-        font-size: 16px;
-    }
-}
-/* end testimonial section */
