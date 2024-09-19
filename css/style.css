@@ -134,17 +134,18 @@ body{
     border: 1px rgb(130, 180, 107) solid;
 }
 .cards{
-    transition: all linear 0.3s;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
 }
 .cards:hover{
-    transform: scale(1.16);
+    transform: scale(1.04);
     z-index: 1000;
 }
 .card-img-top{
-    transition: all linear 0.3s;
+    transition: all ease-in-out 0.2s;
 }
 .card-img-top:hover{
-    transform: scale(1.06);
+    transform: scale(1.016);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .cards-container-home{
@@ -349,5 +350,12 @@ footer input{
    .card-right2{
         animation: none;
    }
+}
+
+/* remove hover for touch devices */
+@media (hover: none) {
+    *:hover {
+      all: unset;
+    }
 }
 
