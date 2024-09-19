@@ -352,10 +352,3 @@ footer input{
    }
 }
 
-/* remove hover for touch devices */
-@media (hover: none) {
-    *:hover {
-      all: unset;
-    }
-}
-
