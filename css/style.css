@@ -111,7 +111,7 @@ body{
 }
 /* end styling sliders */
 
-/* start styling items section */
+/* start styling cards section */
 .items-hr{
     height: 4px;
     background-color: rgb(130, 180, 107);
@@ -125,11 +125,11 @@ body{
 }
 .card-btn{
     background-color: rgb(130, 180, 107);
-    transition: all linear 0.3s;
+    transition: all ease-in-out 0.2s;
     
 }
 .card-btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.15);
     background-color: transparent;
     border: 1px rgb(130, 180, 107) solid;
 }
@@ -156,7 +156,7 @@ body{
         flex-direction: column;
     }
 }
-/* end styling items section */
+/* end styling cards section */
 
 /* styling about home section */
 .about-section-home{
@@ -180,10 +180,9 @@ body{
     margin-top: 50px;
     overflow: hidden;
     border-radius: 10px;
-    transition: all linear 0.3s;
+    transition: all ease-in-out 0.2s;
 }
 .about-home-img:hover{
-    transform: scale(1.2);
     transform: translateY(-30px);
 }
 .about-us-hr{
@@ -232,6 +231,13 @@ body{
 /* end styling about home section */
 
 /* start testimonial section */
+.testimonial-hr{
+    border-radius: 5px;
+    height: 5px;
+    width: 100px;
+    background-color: rgb(130, 180, 107);
+    margin: auto;
+}
 .carousel-container{
     height: 400px;
 }
@@ -254,7 +260,7 @@ body{
 }
 .comment-container{
     position: relative;
-    transition: all linear 0.3s;
+    transition: all ease-in-out 0.2s;
 }
 .comment-container:hover{
     transform: scale(1.1);
@@ -280,6 +286,7 @@ body{
 
 
 /* start styling footer */
+
 .footer-home{
     height: 400px;
     background-color: rgb(130, 180, 107);
@@ -315,6 +322,9 @@ footer input{
 .fa-brands:hover{
     transform: translateY(-20px);
     font-size: 40px;
+}
+.footer-email , .footer-feedback{
+    width: 80%;
 }
 /* end styling footer */
 
