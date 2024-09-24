@@ -2,10 +2,13 @@
     margin: 0%;
     padding: 0%;
 }
+/* start styling body */
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(231, 244, 225);
 }
+/* end styling body */
+
 /* start styling nav bar */
 .nav-home{
     background-color: rgb(130, 180, 107);
@@ -121,6 +124,7 @@ body{
     background-color: rgb(130, 180, 107);
     color: white;
     transition: all ease-in-out 0.16s;
+    overflow: hidden;
 }
 .login-btn-home:hover{
     background-color: rgb(80, 80, 80);
@@ -132,6 +136,7 @@ body{
     background-color: rgb(80, 80, 80);
     color: white;
     transition: all ease-in-out 0.16s;
+    overflow: hidden;
 }
 .create-new-account:hover{
     background-color: rgb(130, 180, 107);
@@ -162,6 +167,11 @@ body{
     width: 70px;
     margin: auto;
     border-radius: 5px;
+}
+@media (max-width: 767.98px) {
+    .leaf-life-form {
+      display: none !important;
+    }
 }
 /* end styling form section */
 
