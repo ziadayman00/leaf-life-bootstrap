@@ -111,6 +111,60 @@ body{
 }
 /* end styling sliders */
 
+/* start styling form section */
+.login-form-home{
+    border: none;
+    border-radius: 10px;
+    
+}
+.login-btn-home{
+    background-color: rgb(130, 180, 107);
+    color: white;
+    transition: all ease-in-out 0.16s;
+}
+.login-btn-home:hover{
+    background-color: rgb(80, 80, 80);
+    color: white;
+    text-decoration: none;
+    transform: scale(1.04);
+}
+.create-new-account{
+    background-color: rgb(80, 80, 80);
+    color: white;
+    transition: all ease-in-out 0.16s;
+}
+.create-new-account:hover{
+    background-color: rgb(130, 180, 107);
+    text-decoration: none;
+    transform: scale(1.04);
+    color: white;
+}
+.buy-now-form-home{
+    background-color: rgb(130, 180, 107);
+    color: white;
+    border-radius: 20px 0px;    
+    transition: all ease-in-out 0.16s;
+}
+.buy-now-form-home:hover{
+    color: black;
+    background-color: inherit;
+    border: 1px solid rgb(130, 180, 107);
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.login-now-form{
+    margin-bottom: 10px;
+
+}
+.login-now-hr{
+    height: 5px;
+    background-color: rgb(130, 180, 107);
+    width: 70px;
+    margin: auto;
+    border-radius: 5px;
+}
+/* end styling form section */
+
 /* start styling cards section */
 .items-hr{
     height: 4px;
@@ -325,6 +379,10 @@ footer input{
 }
 .footer-email , .footer-feedback{
     width: 80%;
+}
+.copy-right{
+    background-color: rgb(80, 80, 80);
+    color: white;
 }
 /* end styling footer */
 
